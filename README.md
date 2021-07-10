@@ -1,6 +1,6 @@
 # BEP-Genetic-Algorithms-on-Solar-Cells
 
-This repository contains of implementations corresponding to the bachelor thesis 'Optimization of tandem solar cells with genetic algorithms' by Koen W. van Arem.
+This repository contains of implementations corresponding to the bachelor thesis 'Optimization of tandem solar cells with genetic algorithms' by Koen W. van Arem.<br/>
 The implementations are written in Matlab in which the Global Optimization Toolbox and the Parallel Computing Toolbox are used. These need to be installed in order to be able to run the code.
 
 This repository consists of three folders:
