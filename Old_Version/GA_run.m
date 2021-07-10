@@ -33,8 +33,7 @@ IntCon = [7, 8, 9, 10];
 % 'scores_empty.mat' should be copied and renamed as 'generation.mat' and
 % 'scores.mat'. The old versions can be renamed to something other than 
 % 'generation.mat' and 'scores.mat' to store them.
-options = optimoptions(@ga,'PlotFcn',{@gaplotbestf,@gaplotrange}, 'OutputFcn',@gaoutfun, 'Display', 'iter', 'TolFun' , 1e-2,'PopulationSize' , 50) ; %'InitialPopulation' , M,
-
+options = optimoptions(@ga,'PlotFcn',{@gaplotbestf,@gaplotrange}, 'OutputFcn',@gaoutfun, 'Display', 'iter', 'TolFun' , epsilon,'PopulationSize' , population_size) ; 
 % Function call of 'ga'
 [x,fval,exitflag,output,population,scores] = ga(@ObjFun_Old, numberOfVariables,[],[],[],[],LowerBounds,UpperBounds,[],IntCon,options);
 
