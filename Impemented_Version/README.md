@@ -4,9 +4,9 @@ This folder contains the Implemented Version of the genetic algorithm as describ
 
 Make sure that the settings for GenPro4 are in the following way:
 
-wav = 0.300:0.005:1.200
-nai = 30
-parll = 0
+wav = 0.300:0.005:1.200<br/>
+nai = 30<br/>
+parll = 0<br/>
 n_rays = 1000
 
 This folder has the following files
