@@ -1,6 +1,6 @@
 # Best Version
 
-This folder contains the Best Version of the genetic algorithm as found in Chapter 5.
+This folder contains the Best Version of the genetic algorithm as found in Chapter 5. Make sure that the Parallel Computing Toolbox is installed.
 
 Make sure that the settings for GenPro4 are in the following way:
 
