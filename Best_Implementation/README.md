@@ -4,10 +4,10 @@ This folder contains the Best Version of the genetic algorithm as found in Chapt
 
 Make sure that the settings for GenPro4 are in the following way:
 
-wav = 0.300:0.005:1.200
-nai = 30
-parll = 0
-n_rays = 1000
+wav = 0.300:0.005:1.200\\
+nai = 30\\
+parll = 0\\
+n_rays = 1000\\
 
 This folder has the following files
   1. 'ObjFun.m' contains the objective function. It redirects to 'ObjFun_first.m' and 'ObjFun_second.m'.
